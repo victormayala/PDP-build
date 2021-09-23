@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>JS Counter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="counter.css">
+  </head>
+
+  <body>
+
+    <div class="container mxw-counter">
+      <div class="row">
+        <div class="col">
+          <div class="d-flex">
+            <!-- thumbnail -->
+            <div>
+              <div class="thumbnail"></div>
+            </div>
+            <div class="px-1">
+              <!-- product title -->
+              <div>
+                <h3>Product Title</h3>
+              </div>
+              <!-- description -->
+              <div class="mxw-260">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, fugit autem eos amet recusandae necessitatibus dolorum dolor, odio quas sint impedit ut ipsam modi ullam ipsa soluta possimus, quibusdam libero.</p>
+              </div>
+              <!-- colors -->
+              <div class="d-flex mb-quarter">
+                <div class="red"></div>
+                <div class="blue"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+                <div class="black"></div>
+              </div>
+              <!-- size -->
+              <div class="d-flex mt-1">
+                <div class="size mx-quarter">SM</div>
+                <div class="size mx-quarter">MD</div>
+                <div class="size mx-quarter">LG</div>
+                <div class="size mx-quarter">XL</div>
+              </div>
+              <!-- counter -->
+              <div class="counter mt-1">
+                <button id="subtract">-</button>
+                <input type="number" value="0">
+                <button id="add">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="d-block">
+            <div class="cart-btn">Add to Cart</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="counter.js"></script>
+
+  </body>
+
+</html>

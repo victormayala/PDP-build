@@ -1,0 +1,118 @@
+.mxw-counter {
+  max-width: 700px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.mb-quarter {
+  margin-bottom: 0.25rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.px-1 {
+  padding: 0 1rem;
+}
+
+.mx-quarter {
+  margin: 0 0.25rem;
+}
+
+.thumbnail {
+  width: 290px;
+  height: 290px;
+  background: lightcoral;
+}
+
+.thumbnail:hover {
+  width: 290px;
+  height: 290px;
+  background: rgb(223, 94, 94);
+}
+
+.mxw-260 {
+  max-width: 260px;
+}
+
+/* colors */
+.red {
+  width: 15px;
+  height: 15px;
+  background: red;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+.blue {
+  width: 15px;
+  height: 15px;
+  background: blue;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+.yellow {
+  width: 15px;
+  height: 15px;
+  background: yellow;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+.green {
+  width: 15px;
+  height: 15px;
+  background: green;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+.black {
+  width: 15px;
+  height: 15px;
+  background: black;
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin: 0 2px;
+}
+
+/* size */
+.size {
+  border: 1px solid lightcoral;
+  border-radius: 2px;
+  padding: 0.25rem;
+  color: lightcoral;
+}
+
+.size:hover {
+  background: lightcoral;
+  border: 1px solid lightcoral;
+  border-radius: 2px;
+  padding: 0.25rem;
+  color: white;
+}
+
+.cart-btn {
+  border: 2px solid lightcoral;
+  text-align: center;
+  padding: 5px 0;
+  color: lightcoral;
+  font-weight: 700;
+}
+
+.cart-btn:hover {
+  background: lightcoral;
+  border: 2px solid lightcoral;
+  text-align: center;
+  padding: 5px 0;
+  color: white;
+  font-weight: 700;
+}
